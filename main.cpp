@@ -273,11 +273,11 @@ int main(){
     }else{
                 cout<< "No hay espacio para paquetes!"<<endl;
             }
-        for(int i = 0; i< 20; i++){
+        for(int i = 0; i< numcarrito; i++){
             carrito[i]= Product();
         }
 
-
+        numcarrito= 0;
         day = 0;
         month = 0;
         year = 0;
